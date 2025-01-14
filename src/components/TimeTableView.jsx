@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { usePDF } from 'react-to-pdf'
-import API_BASE_URL from './config';
+import API_BASE_URL from '../config';
 
 function TimetableView() {
   const [timetables, setTimetables] = useState([])

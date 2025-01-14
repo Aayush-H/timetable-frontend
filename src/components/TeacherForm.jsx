@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { toast } from 'react-toastify'
 import { Search, ArrowUpDown } from 'lucide-react'
-import API_BASE_URL from './config';
+import API_BASE_URL from '../config';
 
 function TeacherForm() {
   const [teachers, setTeachers] = useState([])
